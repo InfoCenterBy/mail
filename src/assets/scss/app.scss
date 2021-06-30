@@ -1,0 +1,63 @@
+@import 'settings';
+@import 'foundation-emails';
+@import 'template/template';
+
+.main-title {
+	font-size: 34px;
+	color:#000;
+	font-weight: 600;
+	line-height: 1.22;
+	margin: 0;
+}
+.title {
+	font-size: 20px;
+	color: #660DC2;
+	font-weight: 500;
+	line-height: 1.22;
+}
+.text {
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+.bg-gradient {
+	background: url('https://raw.githubusercontent.com/andrew-soldat/dr-trust-360/dev/img/img-bg.jpg') 50% 36% no-repeat;
+}
+.text .link-logo {
+	color: #660DC2;
+	font-size: 14px;
+	font-weight: 600;
+
+	&:hover {
+		color: #660DC2;
+		text-decoration: underline;
+	}
+}
+table.button {
+	margin: 0;
+}
+table.button.logo table td  {
+	background: none;
+	border: none;
+}
+table.button table td a {
+	padding: 0;
+}
+.logo-footer {
+	width: 120px;
+}
+.copyright {
+	font-size: 12px;
+	color: #660DC2;
+	line-height: 2.5;
+}
+
+@media screen and (max-width: 500px) {
+	table.body .columns, table.body .column {
+		padding-left: 16px !important;
+		padding-right: 16px !important;
+	}
+}
+table.menu td, table.menu th {
+	display: inline-block;
+}
