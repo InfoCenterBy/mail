@@ -17,11 +17,7 @@
 }
 .text {
 	font-size: 14px;
-	font-weight: 600;
 	margin-bottom: 0;
-}
-.bg-gradient {
-	background: url('https://raw.githubusercontent.com/andrew-soldat/dr-trust-360/dev/img/img-bg.jpg') 50% 36% no-repeat;
 }
 .text .link-logo {
 	color: #660DC2;
@@ -32,6 +28,9 @@
 		color: #660DC2;
 		text-decoration: underline;
 	}
+}
+.bg-gradient {
+	background: url('https://raw.githubusercontent.com/andrew-soldat/DrTrust360-email-img/dev/img/img-bg.jpg') 50% 36% no-repeat;
 }
 table.button {
 	margin: 0;
