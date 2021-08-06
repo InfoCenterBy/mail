@@ -1,8 +1,11 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
 
+// Body Styles 
 body,
 html, 
 .body {
-  background: #ffffff !important;
+  background: #f3f3f3 !important;
 }
 
 .container.header {
@@ -13,6 +16,7 @@ html,
   border-top: 8px solid #663399;
 }
 
+// Full Width Headers
 .header {
   background: #8a8a8a;
 }
@@ -34,6 +38,7 @@ html,
   background: transparent;
 }
 
+// Social Media
 table.button.facebook table td {
   background: #3B5998 !important;
   border-color: #3B5998;
@@ -50,5 +55,6 @@ table.button.google table td {
 }
 
 .wrapper.secondary {
-  background: #FAF9FF;
+  background: #0364c0;
+  color: #ffffff;
 }

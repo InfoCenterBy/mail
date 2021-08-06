@@ -1,65 +1,65 @@
 @import 'settings';
 @import 'foundation-emails';
+
 @import 'template/template';
 
-.main-title {
-	font-size: 34px;
-	color:#000;
-	font-weight: 600;
-	line-height: 1.22;
-	margin: 0;
+.color-blue {
+	color: #367AD1;
 }
-.title {
-	font-size: 20px;
-	color: #660DC2;
-	font-weight: 500;
-	line-height: 1.22;
+.color-gray {
+	color: #8f98b1;
 }
-.text {
+.logo {
+	width: 50px!important;
+}
+.header-logo {
 	font-size: 14px;
-	margin-bottom: 0;
+	color:#ffffff;
+	text-align: right;
 }
-.text .link-logo {
-	color: #660DC2;
-	font-size: 14px;
-	font-weight: 600;
-
-	&:hover {
-		color: #660DC2;
-		text-decoration: underline;
+@media only screen and (max-width: 596px) {
+	.header-logo {
+		text-align: center;
 	}
+ }
+.icon {
+	width: 24px;
 }
-.bg-gradient {
-	background: url('https://raw.githubusercontent.com/andrew-soldat/DrTrust360-email-img/dev/img/img-bg.jpg') 50% 36% no-repeat;
+table.button table td {
+	border: none;
+	border-radius: 20px;
 }
-table.button {
-	margin: 0;
-}
-table.button.logo table td  {
-	background: none;
+table.button.btn-empty table td {
+	background-color: transparent;
 	border: none;
 }
-table.button table td a {
-	padding: 0;
+table.button.btn-empty table td a {
+	background-color: transparent;
+	border: 1px solid #367AD1;
+	color: #367AD1!important;
 }
-.img-number {
-	margin-bottom: 15px;
+table.button.btn-empty table td a:hover {
+	color: #367AD1;
 }
-.logo-footer {
-	width: 120px;
+.bg-blue {
+	background-color: #367AD1!important;
 }
-.copyright {
-	font-size: 12px;
-	color: #660DC2;
-	line-height: 2.5;
+.bg-blue-light {
+	background-color: #D9E9FF!important;
 }
-
-@media screen and (max-width: 500px) {
-	table.body .columns, table.body .column {
-		padding-left: 16px !important;
-		padding-right: 16px !important;
+.link {
+	text-decoration: underline;
+}
+.footer-link {
+	color:#ffffff;
+	text-decoration: underline;
+}
+small {
+	font-size: 10px;
+	color:#ffffff;
+}
+@media only screen and (max-width: 600px) {
+	table.body .container.bg-blue {
+		width: 100%!important;
 	}
-}
-table.menu td, table.menu th {
-	display: inline-block;
 }
