@@ -4,17 +4,14 @@
 @import 'template/template';
 
 .color-blue {
-	color: #367AD1;
-}
-.color-gray {
-	color: #8f98b1;
+	color: #A79ECD;
 }
 .logo {
 	width: 50px!important;
 }
 .header-logo {
 	font-size: 14px;
-	color:#ffffff;
+	color:#000000;
 	text-align: right;
 }
 @media only screen and (max-width: 596px) {
@@ -25,38 +22,46 @@
 .icon {
 	width: 24px;
 }
-table.button table td {
-	border: none;
-	border-radius: 20px;
+.free {
+	padding: 10px;
+	background-color: #1f7540;
+	color:#ffffff;
 }
-table.button.btn-empty table td {
-	background-color: transparent;
-	border: none;
-}
-table.button.btn-empty table td a {
-	background-color: transparent;
-	border: 1px solid #367AD1;
-	color: #367AD1!important;
-}
-table.button.btn-empty table td a:hover {
-	color: #367AD1;
-}
+// table.button table td {
+// 	border: none;
+// 	border-radius: 20px;
+// }
+// table.button.btn-empty table td {
+// 	background-color: transparent;
+// 	border: none;
+// }
+// table.button.btn-empty table td a {
+// 	background-color: transparent;
+// 	border: 1px solid #367AD1;
+// 	color: #367AD1!important;
+// }
+// table.button.btn-empty table td a:hover {
+// 	color: #367AD1;
+// }
 .bg-blue {
-	background-color: #367AD1!important;
+	background-color: #A79ECD!important;
 }
-.bg-blue-light {
-	background-color: #D9E9FF!important;
+.line {
+	border-top: 3px solid #A79ECD!important;
 }
+// .bg-blue-light {
+// 	background-color: #D9E9FF!important;
+// }
 .link {
 	text-decoration: underline;
 }
 .footer-link {
-	color:#ffffff;
+	color:#000000;
 	text-decoration: underline;
 }
 small {
 	font-size: 10px;
-	color:#ffffff;
+	color:#000000;
 }
 @media only screen and (max-width: 600px) {
 	table.body .container.bg-blue {
