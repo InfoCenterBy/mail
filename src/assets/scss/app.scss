@@ -3,6 +3,9 @@
 
 @import 'template/template';
 
+.color-blue {
+	color: #A79ECD;
+}
 .color-red {
 	color: #ff0000;
 }
@@ -19,8 +22,11 @@
 		text-align: center;
 	}
  }
-.icon {
-	width: 24px;
+.icon-social {
+	max-width: 40px;
+}
+.text-social {
+	font-size: 12px;
 }
 .free {
 	padding: 10px;
@@ -49,11 +55,12 @@
 .line {
 	border-top: 3px solid #A79ECD!important;
 }
-// .bg-blue-light {
-// 	background-color: #D9E9FF!important;
-// }
 .link {
 	text-decoration: underline;
+}
+.footer-icon {
+	width: 30px;
+	height: 30px;
 }
 .footer-link {
 	color:#000000;
