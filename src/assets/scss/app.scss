@@ -3,75 +3,98 @@
 
 @import 'template/template';
 
+.bg-color-main {
+	background-color: #929698 !important;
+}
+.bg-color-yellow {
+	background-color: #FED766 !important;
+}
+.bg-color-gray {
+	border-top: 3px solid #FED766;
+	border-bottom: 3px solid #FED766;
+	background-color: #F2F2F2 !important;
+}
 .color-blue {
-	color: #A79ECD;
+	font-weight: 700;
+	color: #367AD1;
 }
-.color-red {
-	color: #ff0000;
-}
+
 .logo {
 	width: 50px!important;
 }
 .header-logo {
 	font-size: 14px;
-	color:#000000;
+	color:#ffffff;
 	text-align: right;
 }
 @media only screen and (max-width: 596px) {
 	.header-logo {
 		text-align: center;
 	}
- }
-.icon-social {
-	max-width: 40px;
-}
-.text-social {
-	font-size: 12px;
-}
-.free {
-	padding: 10px;
-	background-color: #1f7540;
-	color:#ffffff;
-}
-// table.button table td {
-// 	border: none;
-// 	border-radius: 20px;
-// }
-// table.button.btn-empty table td {
-// 	background-color: transparent;
-// 	border: none;
-// }
-// table.button.btn-empty table td a {
-// 	background-color: transparent;
-// 	border: 1px solid #367AD1;
-// 	color: #367AD1!important;
-// }
-// table.button.btn-empty table td a:hover {
-// 	color: #367AD1;
-// }
-.bg-blue {
-	background-color: #A79ECD!important;
-}
-.line {
-	border-top: 3px solid #A79ECD!important;
 }
 .link {
+	color: #000000 !important;
 	text-decoration: underline;
+
+	&:hover {
+		color:#000000;
+		text-decoration: none;
+	}
 }
+// .text-social {
+// 	font-size: 12px;
+// }
+// .free {
+// 	padding: 10px;
+// 	background-color: #1f7540;
+// 	color:#ffffff;
+// }
+table.button table td {
+	border-radius: 15px;
+}
+table.button.btn-primary table td {
+	border: none;
+}
+table.button.btn-primary table td a {
+	padding: 10px 50px;
+	color: #000000!important;
+	border-radius: 15px;
+	border: 2px solid #FED766;
+}
+table.button.btn-empty table td {
+	background-color: transparent;
+	border: none;
+}
+table.button.btn-empty table td a {
+	padding: 10px 50px;
+	color: #000000!important;
+	background-color: transparent;
+	border: 2px solid #FED766;
+	border-radius: 15px;
+}
+table.button.btn-empty table td a:hover {
+	color: #000000;
+}
+
 .footer-icon {
 	width: 30px;
 	height: 30px;
 }
 .footer-link {
-	color:#000000;
+	color:#ffffff !important;
 	text-decoration: underline;
+
+	&:hover {
+		color:#ffffff;
+		text-decoration: none;
+	}
 }
 small {
 	font-size: 10px;
-	color:#000000;
+	color:#ffffff;
 }
-@media only screen and (max-width: 600px) {
-	table.body .container.bg-blue {
-		width: 100%!important;
+@media only screen and (max-width: 596px) {
+	table.body .container {
+		width: 100% !important;
 	}
 }
