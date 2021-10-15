@@ -3,24 +3,39 @@
 
 @import 'template/template';
 
-.bg-color-main {
-	background-color: #929698 !important;
+.bg-color-header {
+	background-color: #E5E5E5!important;
 }
-.bg-color-yellow {
-	background-color: #FED766 !important;
+.bg-color-main {
+	background-color: #929698!important;
+}
+.bg-color-block {
+	background-color: #ffffff!important;
+	border-radius: 10px;
+}
+.f-12 {
+	font-size: 12px;
+}
+.percent {
+	font-size: 24px;
+	color: #DE4C3C;
 }
 .bg-color-gray {
-	border-top: 3px solid #FED766;
-	border-bottom: 3px solid #FED766;
-	background-color: #F2F2F2 !important;
+	width: calc(100% - 32px) !important;
+	margin: 0 15px;
+	background-color: #E8E8E8 !important;
+	border-radius: 10px;
 }
 .color-blue {
 	font-weight: 700;
 	color: #367AD1;
 }
 
+.title {
+	padding-left: 16px;
+}
 .logo {
-	width: 50px!important;
+	max-width: 400px!important;
 }
 .header-logo {
 	font-size: 14px;
@@ -49,17 +64,24 @@
 // 	background-color: #1f7540;
 // 	color:#ffffff;
 // }
-table.button table td {
-	border-radius: 15px;
+// table.button table td {
+// 	border-radius: 15px;
+// }
+.col-1 tbody th {
+}
+.col-2 tbody th {
+	padding: 0 20px 0 0;
 }
 table.button.btn-primary table td {
 	border: none;
+	background-color: transparent;
 }
 table.button.btn-primary table td a {
 	padding: 10px 50px;
 	color: #000000!important;
 	border-radius: 15px;
-	border: 2px solid #FED766;
+	background-color: #FFB000;
+	border: 2px solid #FFB000;
 }
 table.button.btn-empty table td {
 	background-color: transparent;
@@ -69,13 +91,15 @@ table.button.btn-empty table td a {
 	padding: 10px 50px;
 	color: #000000!important;
 	background-color: transparent;
-	border: 2px solid #FED766;
+	border: 2px solid #97D3DE;
 	border-radius: 15px;
 }
 table.button.btn-empty table td a:hover {
 	color: #000000;
 }
-
+.footer {
+	border-radius: 10px;
+}
 .footer-icon {
 	width: 30px;
 	height: 30px;
