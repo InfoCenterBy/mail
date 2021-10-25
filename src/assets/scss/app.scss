@@ -3,6 +3,14 @@
 
 @import 'template/template';
 
+ol, ul {
+	margin-block-start: 0px;
+	padding-inline-start: 20px;
+}
+li {
+	padding-bottom: 10px;
+}
+
 .bg-color-header {
 	background-color: #E5E5E5!important;
 }
@@ -25,6 +33,21 @@
 	margin: 0 15px;
 	background-color: #E8E8E8 !important;
 	border-radius: 10px;
+}
+.br-yellow {
+	width: calc(100% - 32px) !important;
+	margin: 0 15px;
+	border-radius: 10px;
+	border: 2px solid #FFB000;
+	border-collapse: separate;
+}
+.br-yellow .columns {
+	padding-top: 16px;
+	padding-bottom: 0;
+}
+.file .columns {
+	padding-top: 10px;
+	padding-bottom: 0;
 }
 .color-blue {
 	font-weight: 700;
@@ -78,7 +101,7 @@ table.button.btn-primary table td {
 }
 table.button.btn-primary table td a {
 	padding: 10px 50px;
-	color: #000000!important;
+	color: #ffffff!important;
 	border-radius: 15px;
 	background-color: #FFB000;
 	border: 2px solid #FFB000;
