@@ -11,20 +11,21 @@
 // 	padding-bottom: 10px;
 // }
 ul {
-	padding-inline-start: 10px;
+	// padding-inline-start: 10px;
 }
 ul li {
-	list-style-type: none;
+	// list-style-type: none;
 }
 
-// .bg-color-header {
-// 	background-color: #E5E5E5!important;
-// }
+.bg-color-header {
+	background-color: transparent!important;
+}
 .bg-color-main {
-	background-color: #AB7926!important;
+	background-color: #A0A0A0!important;
+	border-radius: 10px;
 }
 .bg-color-block {
-	background: linear-gradient(268.06deg, #F5E9D2 -0.07%, #F4ECDC 48.88%, #F3F1EB 100%) !important;
+	background: #ffffff;
 	border-radius: 10px;
 }
 .main-text {
@@ -38,10 +39,15 @@ ul li {
 	font-size: 24px;
 	color: #DE4C3C;
 }
+.bg-color-pink {
+	width: calc(100% + 32px);
+	background-color: #D9A4C9 !important;
+}
 .bg-color-gray {
-	width: calc(100% + 32px) !important;
-	margin: 0 -16px;
-	border-radius: 10px;
+	border-top: 3px solid #D9A4C9;
+	border-bottom: 3px solid #D9A4C9;
+	width: calc(100% + 32px);
+	background-color: #F2F2F2 !important;
 }
 .br-yellow {
 	width: calc(100% - 32px) !important;
@@ -110,11 +116,11 @@ table.button.btn-primary table td {
 	background-color: transparent;
 }
 table.button.btn-primary table td a {
-	padding: 10px;
+	padding: 10px 50px;
 	color: #ffffff!important;
 	border-radius: 15px;
-	background-color: #AB7927;
-	border: 2px solid #AB7927;
+	background-color: #D9A4C9;
+	border: 2px solid #D9A4C9;
 	text-align: center;
 }
 table.button.btn-empty table td {
@@ -125,7 +131,7 @@ table.button.btn-empty table td a {
 	padding: 10px 50px;
 	color: #000000!important;
 	background-color: transparent;
-	border: 2px solid #97D3DE;
+	border: 2px solid #D9A4C9;
 	border-radius: 15px;
 }
 table.button.btn-empty table td a:hover {
