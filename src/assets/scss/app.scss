@@ -25,8 +25,12 @@ ul li {
 	border-radius: 10px;
 }
 .bg-color-block {
-	background: #ffffff;
-	border-radius: 10px;
+	h4,
+	h5,
+	h6 {
+		margin-bottom: 5px;
+		font-weight: 500;
+	}
 }
 .main-text {
 	color: #956624;
@@ -44,8 +48,8 @@ ul li {
 	background-color: #D9A4C9 !important;
 }
 .bg-color-gray {
-	border-top: 3px solid #D9A4C9;
-	border-bottom: 3px solid #D9A4C9;
+	border-top: 3px solid #61B773;
+	border-bottom: 3px solid #61B773;
 	width: calc(100% + 32px);
 	background-color: #F2F2F2 !important;
 }
@@ -63,6 +67,22 @@ ul li {
 .file .columns {
 	padding-top: 10px;
 	padding-bottom: 0;
+}
+.color-green {
+	color: #61B773;
+}
+.row-flex {
+	display: flex;
+
+	img {
+		flex: 0 0 24px;
+		height: 24px !important;
+		margin-right: 20px;
+	}
+
+	.btn-empty {
+		margin-left: 30px;
+	}
 }
 .color-blue {
 	font-weight: 700;
@@ -116,11 +136,11 @@ table.button.btn-primary table td {
 	background-color: transparent;
 }
 table.button.btn-primary table td a {
-	padding: 10px 50px;
+	padding: 11px 60px;
 	color: #ffffff!important;
 	border-radius: 15px;
-	background-color: #D9A4C9;
-	border: 2px solid #D9A4C9;
+	background-color: #61B773;
+	border: 2px solid #61B773;
 	text-align: center;
 }
 table.button.btn-empty table td {
@@ -128,14 +148,11 @@ table.button.btn-empty table td {
 	border: none;
 }
 table.button.btn-empty table td a {
-	padding: 10px 50px;
+	padding: 11px 60px;
 	color: #000000!important;
 	background-color: transparent;
-	border: 2px solid #D9A4C9;
+	border: 2px solid #61B773;
 	border-radius: 15px;
-}
-table.button.btn-empty table td a:hover {
-	color: #000000;
 }
 .block-green {
 	color: #ffffff;
