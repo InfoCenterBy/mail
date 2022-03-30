@@ -17,9 +17,10 @@ ul li {
 	// list-style-type: none;
 }
 .bg {
+	border-radius: 10px;
 }
 .bg-color-header {
-	background-color: #ffffff!important;
+	background-color: transparent!important;
 }
 .bg-color-main {
 	background-color: #A0A0A0!important;
@@ -33,6 +34,15 @@ ul li {
 		margin-bottom: 5px;
 		font-weight: 500;
 	}
+}
+.label-blue {
+	padding: 5px 10px;
+	display: inline-block;
+	background-color: #0064F8;
+	border-radius: 0px 10px 10px 0px;
+	color:#ffffff;
+	position: relative;
+	transform: translateX(-16px);
 }
 .main-text {
 	color: #956624;
@@ -50,9 +60,9 @@ ul li {
 	background-color: #D9A4C9 !important;
 }
 .bg-color-gray {
-	padding: 20px 10px 10px;
 	border-radius: 10px;
-	// width: calc(100% + 32px);
+	width: calc(100% - 32px) !important;
+	margin: 0 15px;
 	background-color: #EBEBEB !important;
 }
 .br-yellow {
