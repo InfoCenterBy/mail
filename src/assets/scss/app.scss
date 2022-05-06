@@ -16,6 +16,9 @@ ul {
 ul li {
 	// list-style-type: none;
 }
+a {
+	color: #C47A2C;
+}
 .bg {
 	border-radius: 10px;
 }
@@ -38,7 +41,7 @@ ul li {
 .label-blue {
 	padding: 5px 10px;
 	display: inline-block;
-	background-color: #0064F8;
+	background-color: #C47A2C;
 	border-radius: 0px 10px 10px 0px;
 	color:#ffffff;
 	position: relative;
@@ -102,19 +105,19 @@ ul li {
 }
 .color-blue {
 	font-weight: 700;
-	color: #0064F8;
+	color: #C47A2C;
 }
 
 .title {
 	padding-left: 16px;
 }
 .logo {
-	max-width: 400px!important;
+	max-width: 50px!important;
 }
 .header-logo {
+	margin-bottom: 0;
 	font-size: 14px;
-	color:#ffffff;
-	text-align: right;
+	font-weight: 500;
 }
 @media only screen and (max-width: 596px) {
 	.header-logo {
