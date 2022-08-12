@@ -19,6 +19,11 @@ ul li {
 a {
 	color: #C47A2C;
 }
+.pre-header {
+	display: none;
+	max-height: 0px;
+	overflow: hidden;
+}
 .header-wrapper,
 .footer-wrapper {
 	background-color: #040926!important;
