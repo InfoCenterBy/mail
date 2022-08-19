@@ -28,7 +28,14 @@ a {
 .footer-wrapper {
 	background-color: #040926!important;
 }
+.header {
+	padding-left: 16px;
+	padding-right: 16px;
+	display: flex;
+	background-color: transparent;
+}
 .header-logo {
+	margin-left: 16px;
 	margin-bottom: 0;
 	font-size: 14px;
 	font-weight: 400;
@@ -45,6 +52,9 @@ a {
 .bg {
 	border-radius: 10px;
 }
+.white-space-nowrap {
+	white-space: nowrap;
+}
 .bg-color-block {
 	h4,
 	h5,
@@ -57,6 +67,12 @@ a {
 	display: block;
 }
 .link-webinar {
+	img {
+		display: inline-block;
+		margin: 0px 10px 0px 0px;
+	}
+}
+.link-enroll {
 	img {
 		display: inline-block;
 		margin: 0px 0px 0px 20px;
@@ -86,7 +102,6 @@ a {
 .bg-blue {
 	background-color: #040926 !important;
 	p {
-		margin: 0;
 		color: #ffffff;
 	}
 }
