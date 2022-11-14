@@ -24,9 +24,11 @@ a {
 	max-height: 0px;
 	overflow: hidden;
 }
-.header-wrapper,
+.header-wrapper {
+	background-color: #015930 !important;
+}
 .footer-wrapper {
-	background-color: #034A66!important;
+	background-color: #808181 !important;
 }
 .header {
 	padding-left: 16px;
@@ -194,9 +196,9 @@ table.button.btn-primary table td a {
 	text-align: center;
 	border-radius: 10px;
 }
-table.button.btn-primary.blue table td a {
-	background-color: #034A66;
-	border: 2px solid #034A66;
+table.button.btn-primary.green table td a {
+	background-color: #015930;
+	border: 2px solid #015930;
 }
 table.button.btn-empty table td {
 	background-color: transparent;
