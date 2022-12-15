@@ -26,7 +26,11 @@ a {
 }
 .header-wrapper,
 .footer-wrapper {
-	background-color: #034A66 !important;
+	background-color: #FFFFFF !important;
+}
+.footer-wrapper{
+	background-color: #808181 !important;
+
 }
 .header {
 	padding-left: 16px;
@@ -39,7 +43,7 @@ a {
 	margin-bottom: 0;
 	font-size: 14px;
 	font-weight: 400;
-	color: #ffffff;
+	color: #040926;
 }
 .logo {
 	max-width: 50px!important;
@@ -210,6 +214,15 @@ table.button.btn-empty table td a {
 	text-align: center;
 	border-radius: 10px;
 }
+
+table.button.btn-empty-sharp table td a {
+	padding: 15px 105px;
+	color: #282828!important;
+	background-color: #ffffff;
+	border: 1px solid #C47A2C;
+	text-align: center;
+	font-weight: 400;
+}
 .block-green {
 	color: #ffffff;
 	font-weight: 700;
@@ -233,6 +246,7 @@ table.button.btn-empty table td a {
 .footer-icon {
 	width: 30px;
 	height: 30px;
+	margin: 0 15px;
 }
 .footer-link {
 	color:#ffffff !important;
@@ -257,4 +271,16 @@ small {
 }
 .text-left {
 	text-align: -webkit-left;
+}
+
+.add-info{
+	background: #EBEBEB;
+	border-radius: 10px;
+	padding: 19px 7px 16px 16px !important;
+}
+.divider{
+	border: 1px solid #E0E0E0;
+}
+p{
+	margin: 0;
 }

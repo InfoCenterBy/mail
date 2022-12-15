@@ -10,6 +10,7 @@ import fs       from 'fs';
 import siphon   from 'siphon-media-query';
 import path     from 'path';
 import merge    from 'merge-stream';
+
 import beep     from 'beepbeep';
 import colors   from 'colors';
 
@@ -24,7 +25,7 @@ var CONFIG;
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
-  gulp.series(clean, pages, sass, images, inline));
+  gulp.series(clean, pages, sassFunc, images, inline));
 
 // Build emails, run the server, and watch for file changes
 gulp.task('default',
@@ -41,6 +42,10 @@ gulp.task('mail',
 // Build emails, then zip
 gulp.task('zip',
   gulp.series('build', zip));
+
+gulp.task('inline',
+  gulp.series(inline));
+  
 
 // Delete the "dist" folder
 // This happens every time a build starts
@@ -67,14 +72,14 @@ function resetPages(done) {
   panini.refresh();
   done();
 }
-
+const sass = require('gulp-sass')(require('sass'));
 // Compile Sass into CSS
-function sass() {
+function sassFunc() {
   return gulp.src('src/assets/scss/app.scss')
     .pipe($.if(!PRODUCTION, $.sourcemaps.init()))
-    .pipe($.sass({
+    .pipe(sass({
       includePaths: ['node_modules/foundation-emails/scss']
-    }).on('error', $.sass.logError))
+    }).on('error', sass.logError))
     .pipe($.if(PRODUCTION, $.uncss(
       {
         html: ['dist/**/*.html']
@@ -109,7 +114,7 @@ function server(done) {
 function watch() {
   gulp.watch('src/pages/**/*.html').on('all', gulp.series(pages, inline, browser.reload));
   gulp.watch(['src/layouts/**/*', 'src/partials/**/*']).on('all', gulp.series(resetPages, pages, inline, browser.reload));
-  gulp.watch(['../scss/**/*.scss', 'src/assets/scss/**/*.scss']).on('all', gulp.series(resetPages, sass, pages, inline, browser.reload));
+  gulp.watch(['../scss/**/*.scss', 'src/assets/scss/**/*.scss']).on('all', gulp.series(resetPages, sassFunc, pages, inline, browser.reload));
   gulp.watch('src/assets/img/**/*').on('all', gulp.series(images, browser.reload));
 }
 
