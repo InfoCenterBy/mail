@@ -268,6 +268,13 @@ small {
 
 .btn-social{
 	p{
-		
+		border: 1px solid #C47A2C;
+		text-align: center;
+		padding: 0 15px;
+		border-radius: 10px;
+		max-width: 157px;
+		a{
+			line-height: 35px;
+		}
 	}
 }
