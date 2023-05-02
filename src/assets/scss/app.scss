@@ -26,7 +26,7 @@ a {
 }
 .padding-x{
 	width: calc(100% - 32px) !important;
-	margin: 0 15px;
+	margin: 0 15px !important;
 }
 .header-wrapper{
 	background: #040926;
@@ -107,7 +107,7 @@ a {
 }
 
 .color-gold{
-	color: #C47A2C;
+	color: #C47A2C !important;
 }
 
 .link {
@@ -157,7 +157,6 @@ small {
 }
 
 .webinar-card{
-	padding: 20px 15px 20px 15px !important;
 	a{
 			font-weight: 500;
 			font-size: 16px;
@@ -165,25 +164,17 @@ small {
 	}
 	
 	.link-webinar {
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		text-align: center;
 		border-radius: 10px;
 		padding: 12px 10px;
 		font-size: 15px;
-		max-width: 238px !important;
 		img{
 			margin-left: 15px;
 			transform: rotate(-35deg);
 		}
 	}
-	p{
-		display: flex;
-		align-items: center;
-		svg{
-			margin-right: 10px;
-		}
-		
+	ol{
+		padding-inline-start: 15px !important;
 	}
 }
 
@@ -211,10 +202,26 @@ small {
 	}
 }
 
-td.large-1, th.large-1{
-	width: 0px !important;
-}
-
 .strong-link{
 	font-weight: 600;
+}
+
+.title-h3{
+	font-size: 18px;
+}
+
+.link-round{
+	border-radius: 10px;
+	color: #FFFFFF !important;
+	padding: 17px 50px;
+}
+
+.link-round-blue{
+	background: #040926;
+	background-color: #040926;
+}
+
+.link-round-gold{
+	background: #C47A2C;
+	background-color: #C47A2C;
 }
