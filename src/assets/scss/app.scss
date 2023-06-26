@@ -231,3 +231,27 @@ td.large-1, th.large-1{
 		filter: brightness(0) invert(1);
 	}
 }
+
+.accent-block{
+	border-radius: 20px;
+	padding: 12px 24px !important;
+}
+.accent-block-blue, .accent-block-orange{
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 100%;
+	color: #FFFFFF;
+	margin-bottom: 0;
+}
+.accent-block-blue{
+	background-color: #034A66;
+}
+.accent-block-orange{
+	background-color: #C47A2D;
+}
+.sub-accent-block-blue{
+	background-color: #F4F4F4;
+}
+.sub-accent-block-orange{
+	background-color: #FEF1E3;
+}
