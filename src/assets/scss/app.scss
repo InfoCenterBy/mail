@@ -232,10 +232,7 @@ td.large-1, th.large-1{
 	}
 }
 
-.accent-block{
-	border-radius: 20px;
-	padding: 12px 24px !important;
-}
+
 .accent-block-blue, .accent-block-orange{
 	font-size: 20px;
 	font-weight: 600;
@@ -262,4 +259,27 @@ td.large-1, th.large-1{
 
 .fw-7{
 	font-weight: 700;
+}
+
+.accent-block{
+	border-radius: 20px;
+	padding: 12px 24px !important;
+}
+
+.link-webinar{
+	border-radius: 10px;
+}
+
+	.link-webinar{
+		background-color: #F9B974;
+		padding: 10px 10px;
+		color: #040926;
+	}
+
+.p-0{
+	padding: 0;
+}
+
+.fs-12{
+	font-size: 12px;
 }
