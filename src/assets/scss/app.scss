@@ -254,9 +254,50 @@ hr{
 }
 
 .fs-14{
-	font-size: 14px;
+	font-size: 14px !important;
 }
 
 .fs-20{
 	font-size: 20px;
+}
+
+.fs-24{
+	font-size: 24px;
+}
+
+.fs-12{
+	font-size: 12px;
+}
+
+.bg-blue{
+	background: #034A66 !important;
+}
+
+.link-webinar.bg-blue{
+	color: #FFF;
+}
+
+.square-num{
+	padding: .5px 5px;
+	border-radius: 4px;
+	background-color: #C47A2C;
+	color: #FFF;
+}
+
+.icon-inline{
+	width: 16px;
+	height: 16px;
+	display: inline;
+}
+
+.color-white{
+	color: #FFFFFF;
+}
+
+.color-gold-light{
+	color: #F9B974;
+}
+
+.fw-500{
+	font-weight: 500;
 }
